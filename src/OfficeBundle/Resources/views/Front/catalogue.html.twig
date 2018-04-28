@@ -1,0 +1,101 @@
+{% extends 'OfficeBundle:Front:acceuil.html.twig' %}
+{% block title %}PremiumBundle:Front:Catalogue{% endblock %}
+
+{% block slide %}
+    <div>
+        <br><br>
+    </div>
+{% endblock %}
+{% block recherche %}
+{% endblock %}
+
+{% block offre %}
+<div><br><br></div>
+<div class="mg-page-title parallax">
+			<div class="container ">
+				<div class="row ">
+					
+					<div class="col-md-12">
+							
+						<h2>Consulter la liste de nos salles</h2>
+						<p>Tous nos types de salles classés par rapport a vos activités.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="mg-gallery-page">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="mg-filter">
+							<form id="mg-filter">
+								<fieldset>
+									<label class="btn btn-dark btn-main"><input type="radio" name="filter" value="all" checked="checked">Tout</label>
+									<label class="btn btn-dark"><input type="radio" name="filter" value="classic">Seminaires</label>
+									<label class="btn btn-dark"><input type="radio" name="filter" value="deluxe">Informatiques</label>
+                                    <label class="btn btn-dark"><input type="radio" name="filter" value="royal">Journées etudes</label>
+                                    <label class="btn btn-dark"><input type="radio" name="filter" value="royal">Auditorium/Emphithéatre</label>
+                                    <label class="btn btn-dark"><input type="radio" name="filter" value="royal">Formation</label>
+                                    <label class="btn btn-dark"><input type="radio" name="filter" value="royal">Coktails</label>
+                                    <label class="btn btn-dark"><input type="radio" name="filter" value="royal">Team Bulding</label>
+								</fieldset>
+							</form>
+						</div>
+
+						<div class="row" id="mg-grid">
+							<figure class="col-md-3 mg-gallery-item" data-groups='["classic"]'>
+								<a href="{{asset ('assets/template/images/room-1.png')}}" data-lightbox-gallery="rooms"><img src="{{asset ('assets/template/images/room-1.png')}}" class="img-responsive" alt="" /><span class="mg-gallery-overlayer"><i class="fa fa-search-plus"></i></span></a>
+							</figure>
+							<figure class="col-md-3 mg-gallery-item" data-groups='["deluxe"]'>
+								<a href="{{asset ('assets/template/images/room-2.png')}}" data-lightbox-gallery="rooms"><img src="{{asset ('assets/template/images/room-2.png')}}" class="img-responsive" alt="" /><span class="mg-gallery-overlayer"><i class="fa fa-search-plus"></i></span></a>
+							</figure>
+							<figure class="col-md-3 mg-gallery-item" data-groups='["royal"]'>
+								<a href="{{asset ('assets/template/images/room-3.png')}}" data-lightbox-gallery="rooms"><img src="{{asset ('assets/template/images/room-3.png')}}" class="img-responsive" alt="" /><span class="mg-gallery-overlayer"><i class="fa fa-search-plus"></i></span></a>
+							</figure>
+							<figure class="col-md-3 mg-gallery-item" data-groups='["classic"]'>
+								<a href="{{asset ('assets/template/images/room-4.png')}}" data-lightbox-gallery="rooms"><img src="{{asset ('assets/template/images/room-4.png')}}" class="img-responsive" alt="" /><span class="mg-gallery-overlayer"><i class="fa fa-search-plus"></i></span></a>
+							</figure>
+							<figure class="col-md-3 mg-gallery-item" data-groups='["deluxe"]'>
+								<a href="{{asset ('assets/template/images/room-1.png')}}" data-lightbox-gallery="rooms"><img src="{{asset ('assets/template/images/room-5.png')}}" class="img-responsive" alt="" /><span class="mg-gallery-overlayer"><i class="fa fa-search-plus"></i></span></a>
+							</figure>
+							<figure class="col-md-3 mg-gallery-item" data-groups='["classic"]'>
+								<a href="{{asset ('assets/template/images/room-2.png')}}" data-lightbox-gallery="rooms"><img src="{{asset ('assets/template/images/room-6.png')}}" class="img-responsive" alt="" /><span class="mg-gallery-overlayer"><i class="fa fa-search-plus"></i></span></a>
+							</figure>
+							<figure class="col-md-3 mg-gallery-item" data-groups='["royal"]'>
+								<a href="{{asset ('assets/template/images/room-3.png')}}" data-lightbox-gallery="rooms"><img src="{{asset ('assets/template/images/room-7.png')}}" class="img-responsive" alt="" /><span class="mg-gallery-overlayer"><i class="fa fa-search-plus"></i></span></a>
+							</figure>
+							<figure class="col-md-3 mg-gallery-item" data-groups='["royal"]'>
+								<a href="{{asset ('assets/template/images/room-3.png')}}" data-lightbox-gallery="rooms"><img src="{{asset ('assets/template/images/room-8.png')}}" class="img-responsive" alt="" /><span class="mg-gallery-overlayer"><i class="fa fa-search-plus"></i></span></a>
+							</figure>
+							<figure class="col-md-3 mg-gallery-item" data-groups='["classic"]'>
+								<a href="{{asset ('assets/template/images/room-3.png')}}" data-lightbox-gallery="rooms"><img src="{{asset ('assets/template/images/room-9.png')}}" class="img-responsive" alt="" /><span class="mg-gallery-overlayer"><i class="fa fa-search-plus"></i></span></a>
+							</figure>
+							<figure class="col-md-3 mg-gallery-item" data-groups='["royal"]'>
+								<a href="{{asset ('assets/template/images/room-3.png')}}" data-lightbox-gallery="rooms"><img src="{{asset ('assets/template/images/room-10.png')}}" class="img-responsive" alt="" /><span class="mg-gallery-overlayer"><i class="fa fa-search-plus"></i></span></a>
+							</figure>
+							<figure class="col-md-3 mg-gallery-item" data-groups='["deluxe"]'>
+								<a href="{{asset ('assets/template/images/room-3.png')}}" data-lightbox-gallery="rooms"><img src="{{asset ('assets/template/images/room-11.png')}}" class="img-responsive" alt="" /><span class="mg-gallery-overlayer"><i class="fa fa-search-plus"></i></span></a>
+							</figure>
+							<figure class="col-md-3 mg-gallery-item" data-groups='["classic"]'>
+								<a href="{{asset ('assets/template/images/room-3.png')}}" data-lightbox-gallery="rooms"><img src="{{asset ('assets/template/images/room-12.png')}}" class="img-responsive" alt="" /><span class="mg-gallery-overlayer"><i class="fa fa-search-plus"></i></span></a>
+							</figure>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+   
+{% endblock %}
+
+{% block apropos %}
+
+{% endblock %}
+{% block partenaires %}
+
+{% endblock %}
+{% block galerie %}
+
+{% endblock %}
+
+
